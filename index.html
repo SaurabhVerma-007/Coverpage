@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Verma - Aspiring Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="cover-page-container">
+        <!-- Header Section -->
+        <header class="cover-header">
+            <div class="header-content">
+                <div class="name-section">
+                    <h1 class="name-title">Saurabh Verma</h1>
+                    <p class="role-title">Aspiring Software Developer</p>
+                    <p class="subtitle-text">BCA Graduate | Pursuing MCA</p>
+                </div>
+                
+                <div class="header-actions">
+                    <button onclick="downloadResume()" class="download-btn">
+                        <i data-lucide="download" class="btn-icon"></i>
+                        Download Resume
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="cover-main">
+            <div class="content-wrapper">
+                <!-- Professional Summary -->
+                <section class="summary-section">
+                    <h2 class="section-title">Professional Summary</h2>
+                    <p class="summary-text">
+                        BCA graduate pursuing MCA, with a strong foundation in computer science fundamentals, 
+                        problem-solving, and analytical thinking. Actively strengthening skills in programming, 
+                        data structures, and core software development concepts through hands-on projects.
+                    </p>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- Technical Skills -->
+                <section class="skills-section">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    
+                    <div class="skills-grid">
+                        <!-- Programming Languages -->
+                        <div class="skill-category-card">
+                            <div class="skill-header">
+                                <i data-lucide="code" class="skill-icon"></i>
+                                <h3 class="skill-category-title">Programming Languages</h3>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge">C#</span>
+                                <span class="skill-badge">Python</span>
+                                <span class="skill-badge">Java</span>
+                                <span class="skill-badge">JavaScript</span>
+                                <span class="skill-badge">TypeScript</span>
+                            </div>
+                        </div>
+
+                        <!-- Frameworks & Libraries -->
+                        <div class="skill-category-card">
+                            <div class="skill-header">
+                                <i data-lucide="globe" class="skill-icon"></i>
+                                <h3 class="skill-category-title">Frameworks & Libraries</h3>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge">.NET</span>
+                                <span class="skill-badge">ASP.NET</span>
+                                <span class="skill-badge">React</span>
+                                <span class="skill-badge">Node.js</span>
+                                <span class="skill-badge">Express</span>
+                            </div>
+                        </div>
+
+                        <!-- Databases -->
+                        <div class="skill-category-card">
+                            <div class="skill-header">
+                                <i data-lucide="database" class="skill-icon"></i>
+                                <h3 class="skill-category-title">Databases</h3>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge">MySQL</span>
+                                <span class="skill-badge">MongoDB</span>
+                                <span class="skill-badge">PostgreSQL</span>
+                            </div>
+                        </div>
+
+                        <!-- CS Fundamentals -->
+                        <div class="skill-category-card">
+                            <div class="skill-header">
+                                <i data-lucide="award" class="skill-icon"></i>
+                                <h3 class="skill-category-title">CS Fundamentals</h3>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge">Data Structures</span>
+                                <span class="skill-badge">Algorithms</span>
+                                <span class="skill-badge">OOP</span>
+                                <span class="skill-badge">DBMS</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="section-separator"></div>
+
+                <!-- Experience & Education -->
+                <div class="info-grid">
+                    <!-- Current Experience -->
+                    <section class="info-section">
+                        <h2 class="section-title">Current Experience</h2>
+                        <div class="info-card">
+                            <h3 class="info-card-title">Process Associate</h3>
+                            <p class="info-card-company">Lumelight</p>
+                            <p class="info-card-meta">Nov 2024 - Jun 2025 • Noida, India</p>
+                        </div>
+                    </section>
+
+                    <!-- Education -->
+                    <section class="info-section">
+                        <h2 class="section-title">Education</h2>
+                        <div class="info-card">
+                            <h3 class="info-card-title">Master of Computer Applications (MCA)</h3>
+                            <p class="info-card-company">IGNOU, Delhi</p>
+                            <p class="info-card-meta">2025 - 2027</p>
+                        </div>
+                        <div class="info-card">
+                            <h3 class="info-card-title">Bachelor of Computer Applications (BCA)</h3>
+                            <p class="info-card-company">M.M.H College, Ghaziabad</p>
+                            <p class="info-card-meta">2020 - 2025</p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="section-separator"></div>
+
+                <!-- Featured Projects -->
+                <section class="projects-section">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="projects-list">
+                        <div class="project-item">
+                            <h3 class="project-name">AI-Powered Resume Gap Analyzer</h3>
+                            <p class="project-tech">React, Node.js, PostgreSQL, OpenAI API</p>
+                        </div>
+                        <div class="project-item">
+                            <h3 class="project-name">PureCycle Menstrual Cycle Tracking</h3>
+                            <p class="project-tech">React, TypeScript, Node.js, PostgreSQL</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="cover-footer">
+            <div class="footer-content">
+                <h2 class="footer-title">Get In Touch</h2>
+                
+                <div class="contact-grid">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZfSDPGrRsrlzBgFFBbgQxmmbcgvcFqfnQrKNqcNkdftBCcZvKbVrGtJwzHRvfZNgvrwRg" class="contact-item">
+                        <i data-lucide="mail" class="contact-icon"></i>
+                        <span class="contact-text">vsaurabh11july@gmail.com</span>
+                    </a>
+
+                    <a href="tel:+919958736727" class="contact-item">
+                        <i data-lucide="phone" class="contact-icon"></i>
+                        <span class="contact-text">+91 99587 36727</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/saurabh-verma-0349b0191/" target="_blank" class="contact-item">
+                        <i data-lucide="linkedin" class="contact-icon"></i>
+                        <span class="contact-text">LinkedIn Profile</span>
+                    </a>
+
+                    <a href="https://github.com/SaurabhVerma-007" target="_blank" class="contact-item">
+                        <i data-lucide="github" class="contact-icon"></i>
+                        <span class="contact-text">GitHub Profile</span>
+                    </a>
+
+                    <a href="https://www.google.com/maps/place/Ghaziabad,+Uttar+Pradesh/@28.6998545,77.2302131,11z/data=!3m1!4b1!4m6!3m5!1s0x390cf1bb41c50fdf:0xe6f06fd26a7798ba!8m2!3d28.6691565!4d77.4537578!16zL20vMDZkbG0x?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="contact-item">
+                        <i data-lucide="map-pin" class="contact-icon"></i>
+                        <span class="contact-text">Ghaziabad, Uttar Pradesh, India</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
