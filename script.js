@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Download Resume Function
 function downloadResume() {
     // Replace this URL with your actual resume file path
-    const resumeUrl = 'https://drive.google.com/file/d/1wgCPnZsj8YlpKRftWVz8TXt9xvysqTvK/view?usp=drive_link://customer-assets.emergentagent.com/job_768960be-efcd-4455-a952-e4a3685d1937/artifacts/5l0o3tfa_resumenew%20%282%29.pdf';
+    const resumeUrl = 'https://drive.google.com/file/d/1MmrhW8Xfdy9kSGs99mnyNebb2_2yCTvx/view?usp=drive_link';
     window.open(resumeUrl, '_blank');
 }
 
