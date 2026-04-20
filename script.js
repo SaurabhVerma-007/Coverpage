@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Download Resume Function
 function downloadResume() {
     // Replace this URL with your actual resume file path
-    const resumeUrl = 'https://drive.google.com/file/d/1ZJlFx2sLZnfSDIzVxi8b0YNEbNtW6zlp/view?usp=sharing';
+    const resumeUrl = 'https://drive.google.com/file/d/1O1OikKZCHHeKRuRBdmqiFSJ6olzNYOxQ/view?usp=sharing';
     window.open(resumeUrl, '_blank');
 }
 
